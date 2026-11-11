@@ -6,11 +6,12 @@
 
 body{
 	min-height: 100vh;
-	background-image: url('../../IMG/backbolo2.svg');
-	background-position: center;
-	background-repeat: no-repeat;
-	background-size: cover;
+	background-color: #fdf4ff;
+	background-image:
+		radial-gradient(circle, rgba(242, 181, 158, 0.32) 2px, transparent 2px),
+		linear-gradient(135deg, #fdf4ff, #fff0d6);
+	background-position: 0 0, center;
+	background-size: 24px 24px, cover;
 }
-
 
 

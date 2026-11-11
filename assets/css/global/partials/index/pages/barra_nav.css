@@ -112,16 +112,9 @@
 }
 
 .navegador .inicio ul {
-    padding: 8px 8px 104px;
+    padding: 8px;
     border-top: 3px solid #f2b59e;
     background-color: #352727;
-    background-image:
-        linear-gradient(rgba(53, 39, 39, 0.18), rgba(53, 39, 39, 0.18)),
-        url('../../../../../IMG/bolo-atualidade.svg');
-    background-position: center, right bottom;
-    background-repeat: no-repeat;
-    background-size: auto, 104px 104px;
-    image-rendering: pixelated;
 }
 
 .navegador .inicio ul a {

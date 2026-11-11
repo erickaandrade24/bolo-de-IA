@@ -29,8 +29,8 @@ O conteúdo apresenta um breve panorama da história dos bolos, passando por:
 - Fontes históricas.
 
 Um menu lateral permite navegar diretamente entre as seções. A identidade
-visual usa cores e ilustrações relacionadas a bolos, com elementos de estilo
-pixel art.
+visual usa cores e tipografia retrô inspiradas em pixel art, combinadas com
+fotografias e imagens históricas de fontes externas verificáveis.
 
 ## Tecnologias utilizadas
 
@@ -38,7 +38,7 @@ pixel art.
 - **CSS3** — layout, cores, tipografia, responsividade e efeitos visuais;
 - **JavaScript** — abertura e fechamento do menu lateral e comportamento dos
   links de navegação;
-- **SVG** — ilustrações vetoriais dos bolos e imagens de fundo.
+- **JPG** — fotografias e imagens históricas usadas nas seções.
 
 As fontes **Press Start 2P**, **Silkscreen** e **Archivo Black** são carregadas
 do Google Fonts.
@@ -62,13 +62,11 @@ bolo2/
     │                   ├── index.css
     │                   └── primeiroquadrado.css
     ├── IMG/
-    │   ├── backbolo2.svg
-    │   ├── bolo-atualidade.svg
-    │   ├── bolo-egito.svg
-    │   ├── bolo-grecia-roma.svg
-    │   ├── bolo-historia.svg
-    │   ├── bolo-idade-media.svg
-    │   └── seta.svg
+    │   ├── bread-pompeii.jpg
+    │   ├── cake-at-teatime.jpg
+    │   ├── cake-modern.jpg
+    │   ├── egyptian-fresh-bread.jpg
+    │   └── medieval-baker.jpg
     └── javascript/
         └── barra_nav.js
 ```
@@ -76,8 +74,27 @@ bolo2/
 - `bolo_2.html` contém a página e o conteúdo das seções.
 - `assets/css/global/` reúne os estilos globais e os estilos específicos da
   navegação e do conteúdo.
-- `assets/IMG/` guarda as ilustrações e imagens SVG.
+- `assets/IMG/` guarda as imagens locais usadas pelo site.
 - `assets/javascript/` contém o código de interação do menu.
+
+## Créditos das imagens
+
+As imagens abaixo foram obtidas no [Wikimedia Commons](https://commons.wikimedia.org/).
+As cópias usadas pelo site estão em `assets/IMG/`; consulte a página de cada
+arquivo para ver os detalhes e condições de uso:
+
+| Arquivo no projeto | Imagem e autoria | Licença e fonte |
+| --- | --- | --- |
+| `cake-at-teatime.jpg` | *Cake at Teatime*, pintura de Ludwig Knaus | Domínio público — [página do arquivo](https://commons.wikimedia.org/wiki/File:Ludwig_Knaus_-_Cake_at_Teatime.jpg) |
+| `egyptian-fresh-bread.jpg` | Pães egípcios atuais, foto de Dina Said | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — [página do arquivo](https://commons.wikimedia.org/wiki/File:Egyptian_Fresh_Bread.jpg) |
+| `bread-pompeii.jpg` | Gravura de 1832 sobre o pão encontrado em Pompeia, de William Clark; digitalização creditada a benoitb | Domínio público — [página do arquivo](https://commons.wikimedia.org/wiki/File:Bread_discovered_in_Pompeii.jpg) |
+| `medieval-baker.jpg` | *Medieval baker*; autoria não informada na página do arquivo | Domínio público — [página do arquivo](https://commons.wikimedia.org/wiki/File:Medieval_bakerFXD.jpg) |
+| `cake-modern.jpg` | Bolo de chocolate e bolo Victoria, foto de Acabashi | [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/) — [página do arquivo](https://commons.wikimedia.org/wiki/File:Chocolate_cake_and_Victoria_sponge.jpg) |
+
+A imagem de pão egípcio mostra um alimento atual, não um artefato do Egito
+Antigo. Ela é usada como referência visual, sem sugerir que seja uma fotografia
+histórica. As imagens sob CC BY-SA devem manter a atribuição e os termos da
+licença ao serem reutilizadas.
 
 ## Como visualizar
 

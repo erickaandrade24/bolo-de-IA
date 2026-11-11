@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Pão doce antigo</title>
+  <desc id="desc">Pão redondo e rústico sobre uma mesa de madeira, com trigo ao fundo.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1"><stop stop-color="#f8dca2"/><stop offset="1" stop-color="#e99a5a"/></linearGradient>
+    <linearGradient id="bread" x2="0" y2="1"><stop stop-color="#e8a34f"/><stop offset="1" stop-color="#a84f2f"/></linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#sky)"/>
+  <circle cx="310" cy="82" r="36" fill="#fff0b5" opacity=".8"/>
+  <path d="M0 220Q92 157 184 220t216 0v180H0Z" fill="#8f7048"/>
+  <path d="M0 275h400v125H0z" fill="#754633"/>
+  <path d="M0 302h400M0 351h400" stroke="#a56a45" stroke-width="8" opacity=".65"/>
+  <path d="M71 198q13-28 25-2m-13-27 13 27 15-23m-11-18 11 18 17-17M322 200q10-25 21-4m-13-25 13 25 14-20m-11-19 11 19 15-17" fill="none" stroke="#ad7736" stroke-width="6" stroke-linecap="round"/>
+  <ellipse cx="198" cy="276" rx="118" ry="38" fill="#583728"/>
+  <path d="M88 270q9-92 110-101 101 9 114 101-96 42-224 0Z" fill="url(#bread)" stroke="#75412b" stroke-width="8"/>
+  <path d="M145 203q28 33 12 70m64-91q-17 42 4 78m42-50q-28 20-20 58" fill="none" stroke="#f6ca7c" stroke-width="10" stroke-linecap="round"/>
+  <ellipse cx="195" cy="270" rx="104" ry="22" fill="#d58a45" opacity=".6"/>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-labelledby="title desc">
+  <title id="title">Bolo medieval</title>
+  <desc id="desc">Um bolo assando sobre uma mesa em uma cozinha medieval de pedra.</desc>
+  <defs>
+    <linearGradient id="wall" x2="0" y2="1"><stop stop-color="#746355"/><stop offset="1" stop-color="#372f2d"/></linearGradient>
+    <radialGradient id="fire"><stop stop-color="#fff18b"/><stop offset=".55" stop-color="#ef873a"/><stop offset="1" stop-color="#8f3828"/></radialGradient>
+    <linearGradient id="cake" x2="0" y2="1"><stop stop-color="#e8b866"/><stop offset="1" stop-color="#a85a37"/></linearGradient>
+  </defs>
+  <rect width="400" height="400" fill="url(#wall)"/>
+  <path d="M0 64h400M0 130h400M0 196h400M0 262h400M0 328h400M93 0v64m130 0v66M43 130v66m202 0v66M120 262v66m177 0v66" stroke="#938071" stroke-width="5" opacity=".45"/>
+  <path d="M30 116q0-79 88-79t88 79v139H30Z" fill="#302b2a" stroke="#ad8e6a" stroke-width="9"/>
+  <path d="M47 132q0-57 71-57t71 57v105H47Z" fill="url(#fire)"/>
+  <path d="M0 291h400v109H0Z" fill="#53392d"/>
+  <path d="M0 306h400" stroke="#a36d42" stroke-width="10"/>
+  <path d="M69 329h263" stroke="#734831" stroke-width="11"/>
+  <ellipse cx="210" cy="301" rx="93" ry="24" fill="#2b2321"/>
+  <path d="M133 243h154v57H133Z" fill="url(#cake)" stroke="#67402d" stroke-width="7"/>
+  <path d="M133 245q0-49 77-55 77 6 77 55Z" fill="#f0d091" stroke="#67402d" stroke-width="7"/>
+  <path d="M152 230q15 17 30 0t30 0 30 0 28 0" fill="none" stroke="#9e542d" stroke-width="8"/>
+  <path d="M168 216q-9-18 7-25 11 13 2 25m25-5q-7-21 10-28 11 16 1 28m23 2q-4-17 13-22 9 13 0 22" fill="#be5738" stroke="#713b2c" stroke-width="4"/>
+  <path d="M322 213v38m-13-32 13-14 13 14" stroke="#d3ad75" stroke-width="7" stroke-linecap="round"/>
+</svg>

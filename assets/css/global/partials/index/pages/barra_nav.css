@@ -1,0 +1,147 @@
+.botao-menu{
+    position: fixed;
+    top: 20px;
+    z-index: 2;
+    border: 0;
+    padding: 10px 14px;
+    font-size: 24px;
+    cursor: pointer;
+    transition: transform 0.3s;
+    background-color: #fdfbfb;
+}
+
+.botao-menu.aberta{
+    transform: translateX(260px);
+}
+
+.barra_nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 260px;
+    height: 100vh;
+    padding-top: 80px;
+    background-color: #3a3939;
+    transform: translateX(-100%);
+    transition: transform 0.3s;
+}
+
+.barra_nav.aberta{
+    transform: translateX(0);
+}
+
+.navegador ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+
+    li a{
+        display: block;
+        padding: 16px 24px;
+        color: white;
+        text-decoration: none;
+        border-bottom: 1px solid #444343;
+         font-family: "Archivo Black", sans-serif;
+        text-transform: uppercase;
+        
+    }
+    li a:hover{
+        background-color: #444;
+    }
+
+    summary{
+        padding: 16px 10px;
+        color: white;
+        cursor: pointer;
+    }
+    summary:hover{
+        background-color: #444;
+    }
+    details ul{
+        padding-left: 16px;
+
+    }
+    details p{
+        margin: 0;
+        padding: 8px 24px 16px;
+        color: white;
+    }
+}
+
+.inicio{
+    margin: 0 12px;
+    border: 3px solid #f2b59e;
+    background: #6a2f37;
+    box-shadow: 4px 4px 0 #21191a;
+}
+
+.navegador .inicio > summary {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 12px;
+    color: #fff0d6;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 11px;
+    line-height: 1.6;
+    list-style: none;
+    text-shadow: 2px 2px 0 #352727;
+}
+
+.navegador .inicio > summary::-webkit-details-marker {
+    display: none;
+}
+
+.navegador .inicio > summary::after {
+    content: '+';
+    margin-left: 8px;
+    color: #f2b59e;
+    font-family: 'Silkscreen', cursive;
+    font-size: 20px;
+}
+
+.navegador .inicio[open] > summary::after {
+    content: '-';
+}
+
+.navegador .inicio > summary:hover,
+.navegador .inicio > summary:focus-visible {
+    background-color: #87404a;
+    outline: 2px solid #fff0d6;
+    outline-offset: -4px;
+}
+
+.navegador .inicio ul {
+    padding: 8px 8px 104px;
+    border-top: 3px solid #f2b59e;
+    background-color: #352727;
+    background-image:
+        linear-gradient(rgba(53, 39, 39, 0.18), rgba(53, 39, 39, 0.18)),
+        url('../../../../../IMG/bolo-atualidade.svg');
+    background-position: center, right bottom;
+    background-repeat: no-repeat;
+    background-size: auto, 104px 104px;
+    image-rendering: pixelated;
+}
+
+.navegador .inicio ul a {
+    padding: 12px 8px;
+    color: #fff0d6;
+    border-bottom: 2px solid #6a2f37;
+    font-family: 'Silkscreen', cursive;
+    font-size: 13px;
+    line-height: 1.5;
+    text-transform: none;
+}
+
+.navegador .inicio ul a:hover,
+.navegador .inicio ul a:focus-visible {
+    color: #352727;
+    background-color: #f2b59e;
+    outline: 2px solid #fff0d6;
+    outline-offset: -3px;
+}
+
+.navegador .inicio ul li:last-child a {
+    border-bottom: 0;
+}
